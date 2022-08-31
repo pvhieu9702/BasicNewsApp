@@ -1,0 +1,137 @@
+@media screen and (max-width: 722px) {
+	/* Screen small */
+	.thumb-art img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 992px){
+	/* Screen medium */
+	body {
+		font-size: small !important;
+	}
+	
+	
+}
+
+@media screen and (min-width: 992px){
+	/* Screen lagre */
+	body {
+		font-size: medium !important;
+	}
+
+	.thumb-art img{
+		max-width: 100%;
+		width: 100%;
+		height: 220px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	/* Screen extra large */
+	body {
+		font-size: large !important;
+	}
+
+	.thumb-art img{
+		max-width: 100%;
+		width: 100%;
+		height: 300px;
+	}
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	box-sizing: border-box;
+}
+
+#banner {
+	text-align: center;
+	background-color: orange;
+	padding: 20px 0px;
+}
+#banner h1 {
+	display: inline-block;
+}
+
+#banner button {
+	background-color: orange;
+	border: 0;
+	font-size: 200%;
+	padding-left: 12px;
+}
+
+#search-engine {
+	position: relative;
+	margin: 5px 0px;
+}
+
+#search-engine svg{
+	position: absolute;
+	top :0;
+	left: 1.4em;
+	bottom: 0;
+	margin: auto auto auto 0;
+	width: 1em;
+	z-index: 1;
+}
+
+#search-engine input{
+	width: 100%;
+	margin: 0;
+	padding: 0.4em;
+	text-indent: 2em;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.item-new {
+	/* height: 220px; */
+	padding: 7px 0px;
+}
+
+.content-news *{
+	margin-bottom: 10px;
+}
+
+.content-news .title-news{
+	font-weight: bold;
+    font-size: 125%;
+    /* text-align: justify; */
+}
+
+.content-news .description{
+	text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* .thumb-art img{
+	max-width: 100%;
+	width: 100%;
+	height: 220px;
+} */
+
+.content-time span {
+	font-style: italic;
+}
+
+.modal-header h5 {
+	margin: auto 0px;
+}
+#modal-form {
+	width: 100%;
+}
+
+#modal-form button{
+	margin: .75rem 0rem;
+	float: right;
+}
+
+#loading {
+	display: none;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
